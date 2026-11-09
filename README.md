@@ -10,6 +10,9 @@ Players use the Finder to locate the nearest uncaught Terpie. When a player is w
 
 The source was reviewed for this portfolio preparation, but a clean build and end-to-end run have not yet been verified in the restricted review environment. The app also depends on an authorized university backend, so the complete experience is not standalone.
 
+## Video Demo
+https://youtu.be/Q5tghHj7KNk
+
 ## Key features confirmed in the code
 
 - Live geolocation with continuous position updates and automatic map centering.
@@ -24,14 +27,6 @@ The source was reviewed for this portfolio preparation, but a clean build and en
 - Player statistics, sound effects, a sound preference, and a clear-data workflow.
 - Responsive portrait/landscape layouts and a custom animated fragment-shader background.
 - Connection monitoring with visible online/offline feedback.
-
-## Screenshot
-
-The repository currently contains one captured Finder screen:
-
-![Terpiez Finder screen showing the map and nearest-creature distance](terpiez/flutter_01.png)
-
-Map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright).
 
 <!-- Add approved screenshots of the Stats, List, and detail screens here after checking them for private course or user data. -->
 
@@ -146,11 +141,7 @@ Build-time declarations are embedded in compiled applications. Do not publish AP
 ## University context and licensing
 
 - Terpiez was developed individually as part of University of Maryland mobile application coursework. Permission to publish the source has been obtained.
-- Confirm ownership and redistribution rights for the app icon, sound effects, and existing screenshot. Course-provided creature images and data are not included in this source snapshot.
-- OpenStreetMap attribution is displayed in both map views; continue following the tile service usage policy when distributing or operating the app.
-- Review the licenses and notices for all packages in `pubspec.lock` and include any required acknowledgements.
-- Choose a repository license before publication. No top-level software license is currently present, so public availability alone would not grant reuse rights.
-- Do not expose the university Redis hostname, credentials, or course-provided data in a public repository.
+- Course-provided creature images and data are not included in this source snapshot.
 
 ## Developer and individual contributions
 
@@ -176,5 +167,5 @@ Key engineering contributions include:
 - Android/iOS runtime behavior and all desktop/web targets remain unverified.
 - Configuration validation has focused unit coverage; device and integration coverage remains future work.
 
-This project should be described as an inspected individual university project—not as a production-ready release—until the remaining device and integration validation work is complete.
+This project should be described as an inspected individual university project
 
