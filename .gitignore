@@ -1,0 +1,79 @@
+# Operating-system and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+.history/
+
+# IDE metadata (shared project settings can be added explicitly if needed)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Dart, Flutter, and pub-generated files
+**/.dart_tool/
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/doc/api/
+**/coverage/
+**/build/
+**/ios/Flutter/.last_build_id
+app.*.symbols
+app.*.map.json
+
+# Generated Android files and local SDK configuration
+**/android/.gradle/
+**/android/.kotlin/
+**/android/captures/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+*.apk
+*.aab
+
+# Generated Apple-platform files
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/.symlinks/
+**/DerivedData/
+**/xcuserdata/
+*.ipa
+
+# Generated desktop-platform files
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Local runtime/app-sandbox data captured during Android testing
+/terpiez/testdir/
+
+# Local secrets, service configuration, and signing material
+.env
+.env.*
+!.env.example
+**/config/local.json
+**/config/*.local.json
+**/key.properties
+**/keystore.properties
+**/google-services.json
+**/GoogleService-Info.plist
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
